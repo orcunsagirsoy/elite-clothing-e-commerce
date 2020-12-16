@@ -1,11 +1,10 @@
 import React from 'react';
 import {connect} from 'react-redux';
-
 import { Link } from 'react-router-dom';
 import { auth } from '../../firebase/firebase.utils';
 import { ReactComponent as Logo } from '../../assets/crown.svg';
-import { ReactComponent as Logo } from '../../assets/shopping-bag.svg';
-import CartDropdown from '../CartDropdown/index'
+import CartIcon from '../CartIcon';
+import CartDropdown from '../CartDropdown/index';
 import './index.scss';
 
 const Header = ({ currentUser, hidden }) => (
