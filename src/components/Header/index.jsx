@@ -2,7 +2,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 import { Link } from 'react-router-dom';
 import { auth } from '../../firebase/firebase.utils';
-import { ReactComponent as Logo } from '../../assets/crown.svg';
+import { ReactComponent as Logo } from '../../assets/elite-1.svg';
 import CartIcon from '../CartIcon';
 import CartDropdown from '../CartDropdown/index';
 import './index.scss';
